@@ -37,56 +37,10 @@ object Dummies {
             principalPaidAmount = 312.78,
             responseFlag = true,
         ),
-        Productos(
-            loanTenure = 3,
-            deferredAmount = 123.46,
-            campaignId = "3CLICKS",
-            waveId = "1M85NDGG6VP0",
-            offerId = "123456",
-            interestAmount = 47.59,
-            installmentAmount = 360.28,
-            interestRate = 0.19,
-            principalPaidAmount = 312.78,
-            responseFlag = true,
-        ),
-        Productos(
-            loanTenure = 4,
-            deferredAmount = 123.46,
-            campaignId = "3CLICKS",
-            waveId = "1M85NDGG6VP0",
-            offerId = "123456",
-            interestAmount = 47.59,
-            installmentAmount = 360.28,
-            interestRate = 0.19,
-            principalPaidAmount = 312.78,
-            responseFlag = true,
-        ),
-        Productos(
-            loanTenure = 5,
-            deferredAmount = 123.46,
-            campaignId = "3CLICKS",
-            waveId = "1M85NDGG6VP0",
-            offerId = "123456",
-            interestAmount = 47.59,
-            installmentAmount = 360.28,
-            interestRate = 0.19,
-            principalPaidAmount = 312.78,
-            responseFlag = false,
-        ),
+
     )
 
     var productosFalse = mutableListOf<Productos>(
-        Productos(
-            loanTenure = 5,
-            deferredAmount = 123.46,
-            campaignId = "3CLICKS",
-            waveId = "1M85NDGG6VP0",
-            offerId = "123456",
-            interestAmount = 47.59,
-            installmentAmount = 360.28,
-            interestRate = 0.19,
-            principalPaidAmount = 312.78,
-            responseFlag = true,
-        ),
+
     )
 }
