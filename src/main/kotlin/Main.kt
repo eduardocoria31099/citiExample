@@ -5,7 +5,7 @@ private var listSize: Int = 0
 private lateinit var successList: MutableList<Productos>
 private lateinit var errorList: MutableList<Productos>
 
-private lateinit var baseList: List<Productos>
+private lateinit var baseList: MutableList<Productos>
 
 fun main() {
     init()
@@ -15,6 +15,7 @@ fun main() {
 private fun init() {
     errorList = mutableListOf()
     successList = mutableListOf()
+    baseList = mutableListOf()
     listSize = productos.size
 }
 
@@ -29,8 +30,8 @@ private fun getLista() {
 
         println(listSubFirst.size)
         println(listSubLast.size)
-        println(listSubFirst)
-        println(listSubLast)
+        /*println(listSubFirst)
+        println(listSubLast)*/
 
         firstCallService(listSubFirst)
         firstCallService(listSubLast)
@@ -46,7 +47,7 @@ private fun getLista() {
 
 private fun firstCallService(listProducts: List<Productos>) {
     println("Llamado al servicio 1")
-    baseList = listProducts
+    baseList.addAll(listProducts)
     println(baseList.size)
 
 }

@@ -36,7 +36,8 @@ object Dummies {
             interestRate = 0.19,
             principalPaidAmount = 312.78,
             responseFlag = true,
-        ),Productos(
+        ),
+        Productos(
             loanTenure = 3,
             deferredAmount = 123.46,
             campaignId = "3CLICKS",
@@ -46,9 +47,22 @@ object Dummies {
             installmentAmount = 360.28,
             interestRate = 0.19,
             principalPaidAmount = 312.78,
-            responseFlag = false,
-        ),Productos(
+            responseFlag = true,
+        ),
+        Productos(
             loanTenure = 4,
+            deferredAmount = 123.46,
+            campaignId = "3CLICKS",
+            waveId = "1M85NDGG6VP0",
+            offerId = "123456",
+            interestAmount = 47.59,
+            installmentAmount = 360.28,
+            interestRate = 0.19,
+            principalPaidAmount = 312.78,
+            responseFlag = true,
+        ),
+        Productos(
+            loanTenure = 5,
             deferredAmount = 123.46,
             campaignId = "3CLICKS",
             waveId = "1M85NDGG6VP0",
@@ -61,9 +75,9 @@ object Dummies {
         ),
     )
 
-    var productosFalse = mutableListOf(
+    var productosFalse = mutableListOf<Productos>(
         Productos(
-            loanTenure = 1,
+            loanTenure = 5,
             deferredAmount = 123.46,
             campaignId = "3CLICKS",
             waveId = "1M85NDGG6VP0",
@@ -73,18 +87,6 @@ object Dummies {
             interestRate = 0.19,
             principalPaidAmount = 312.78,
             responseFlag = true,
-        ),
-        Productos(
-            loanTenure = 2,
-            deferredAmount = 123.46,
-            campaignId = "3CLICKS",
-            waveId = "1M85NDGG6VP0",
-            offerId = "123456",
-            interestAmount = 47.59,
-            installmentAmount = 360.28,
-            interestRate = 0.19,
-            principalPaidAmount = 312.78,
-            responseFlag = false,
         ),
     )
 }
